@@ -13,5 +13,5 @@ setup(
         url              = 'https://github.com/junion-org/junion.git',
         keywords         = 'python',
         packages         = find_packages(),
-        install_requires = [],
+        install_requires = ['oauth2', 'numpy'],
         )
