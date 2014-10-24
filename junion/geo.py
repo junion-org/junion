@@ -109,23 +109,3 @@ def WGS2TKY(lat, lon):
     jlon = lon + lat * 0.000046047 + lon * 0.000083049 - 0.010041;
     return round(jlat, 8), round(jlon, 8)
 
-#def main():
-#    """
-#    メイン関数
-#    """
-#    a = WEST
-#    print a
-#    b = deg2dms(a[0], a[1])
-#    print b
-#    c = WGS2TKY(a[0], a[1])
-#    print c
-#    d = deg2dms(c[0], c[1])
-#    print d
-#    js = rgeocode(a[0], a[1])
-#    print eval('u"""%s"""' % json.dumps(js, indent=4)).encode('utf8')
-#    print detect_jp(a[0], a[1])
-#
-## エントリポイント
-#if __name__ == '__main__':
-#    main()
-
